@@ -114,7 +114,7 @@ class DataTransformation:
                 obj=preprocessing_obj
 
             )
-
+            logging.info("Saved preprocessing object.")
             return (
                 train_arr,
                 test_arr,
